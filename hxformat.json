@@ -1,30 +1,113 @@
 {
-  "disableFormatting": false,
+	"disableFormatting": false,
+	"emptyLines": {
+		"abstractEmptyLines": {
+			"afterVars": 1,
+			"beginType": 1,
+			"betweenFunctions": 1,
+			"betweenStaticFunctions": 0,
+			"betweenStaticVars": 0,
+			"betweenVars": 0,
+			"existingBetweenFields": "remove",
+			"endType": 1
+		},
+		"classEmptyLines": {
+			"afterPrivateFunctions": 1,
+			"afterVars": 1,
+			"beginType": 1,
+			"betweenFunctions": 1,
+			"betweenStaticFunctions": 1,
+			"betweenStaticVars": 0,
+			"betweenVars": 0,
+			"existingBetweenFields": "remove",
+			"endType": 1
+		},
+		"enumEmptyLines": {
+			"beginType": 1,
+			"betweenFields": 0,
+			"endType": 1,
+			"existingBetweenFields": "remove"
+		},
+		"interfaceEmptyLines": {
+			"beginType": 1,
+			"betweenFunctions": 1,
+			"endType": 1,
+			"existingBetweenFields": "remove"
+		},
+		"enumAbstractEmptyLines": {
+			"beginType": 1,
+			"betweenFunctions": 1,
+			"endType": 1,
+			"existingBetweenFields": "remove"
+		},
+		"externClassEmptyLines": {
+			"afterVars": 1,
+			"beginType": 1,
+			"betweenFunctions": 1,
+			"betweenVars": 0,
+			"endType": 1,
+			"existingBetweenFields": "remove"
+		},
+		"typedefEmptyLines": {
+			"beginType": 1,
+			"betweenFields": 0,
+			"endType": 1,
+			"existingBetweenFields": "remove"
+		},
+		"afterLeftCurly": "keep",
+		"beforeRightCurly": "keep"
+	},
+	"indentation": {
+		"character": "tab",
+		"tabWidth": 4,
+		"trailingWhitespace": false
+	},
+	"sameLine": {
+		"doWhile": "next",
+		"ifBody": "same",
+		"ifElse": "next",
+		"tryBody": "next",
+		"tryCatch": "next"
+	},
+	"lineEnds": {
+		"typedefCurly": {
+			"leftCurly": "after",
+			"rightCurly": "before"
+		},
+		"leftCurly": "after",
+		"rightCurly": "before"
+	},
+	"whitespace": {
+		"bracesConfig": {
+			"anonTypeBraces": {
+				"closingPolicy": "none",
+				"openingPolicy": "noneBefore",
+				"removeInnerWhenEmpty": true
+			},
+			"blockBraces": {
+				"closingPolicy": "none",
+				"openingPolicy": "noneBefore",
+				"removeInnerWhenEmpty": true
+			},
+			"objectLiteralBraces": {
+				"closingPolicy": "none",
+				"openingPolicy": "noneAfter",
+				"removeInnerWhenEmpty": true
+			},
+			"typedefBraces": {
+				"closingPolicy": "none",
+				"openingPolicy": "noneAfter",
+				"removeInnerWhenEmpty": true
+			},
+			"unknownBraces": {
+				"closingPolicy": "none",
+				"openingPolicy": "noneAfter",
+				"removeInnerWhenEmpty": true
+			}
+		}
+	},
 
-  "indentation": {
-    "character": "  ",
-    "tabWidth": 2,
-    "indentCaseLabels": true
-  },
-  "lineEnds": {
-    "anonFunctionCurly": {
-      "emptyCurly": "break",
-      "leftCurly": "after",
-      "rightCurly": "both"
-    },
-    "leftCurly": "both",
-    "rightCurly": "both"
-  },
-
-  "sameLine": {
-    "ifBody": "same",
-    "ifElse": "next",
-    "doWhile": "next",
-    "tryBody": "next",
-    "tryCatch": "next"
-  },
-
-  "whitespace": {
-    "switchPolicy": "around"
-  }
+	"wrapping": {
+		"maxLineLength": 160
+	}
 }

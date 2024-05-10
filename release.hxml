@@ -1,0 +1,34 @@
+--class-path source
+--class-path mod_source
+
+--library discord_rpc:git
+--library flixel:git
+--library flixel-addons:git
+--library flixel-text-input:1.1.0
+--library flixel-ui:git
+--library flxanimate:git
+--library format:3.5.0
+--library funkin.vis:git
+--library hamcrest:3.0.0
+--library haxeui-core:git
+--library haxeui-flixel:git
+--library hscript:2.5.0
+--library hxCodec:git
+--library hxcpp:4.3.2
+--library hxcpp-debug-server:git
+--library hxp:1.2.2
+--library json2object:git
+--library lime:git
+--library mconsole:git
+--library mcover:git
+--library mockatoo
+--library munit:git
+--library openfl:git
+--library polymod:git
+--library thx.core:git
+--library thx.semver:git
+
+--remap flash:openfl
+
+--define FLX_SOUND_SYSTEM
+--define REQUEST_DARK_MODE
