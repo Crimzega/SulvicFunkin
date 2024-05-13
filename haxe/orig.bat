@@ -1,3 +1,2 @@
 @echo off
-cd ..
-git clone --recursive-submodules https://github.com/FunkinCrew/Funkin original
+git clone --recurse-submodules https://github.com/FunkinCrew/Funkin original

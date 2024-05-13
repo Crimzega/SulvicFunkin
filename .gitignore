@@ -1,5 +1,7 @@
 .DS_STORE
+.haxelib/
 .vs/
 ideas/
 schemas/
+original/
 source/com/funkincrew/funkin/api/APIStuff.hx

@@ -1,0 +1,12 @@
+{
+	"recommendations": [
+		"esbenp.prettier-vscode", // JSON formatting
+		"nadako.vshaxe", // Basic Haxe integration
+		"openfl.lime-vscode-extension", // Lime integration
+		"redhat.vscode-xml", // XML formatting
+		"ryanluker.vscode-coverage-gutters", // Highlight code coverage
+		"vshaxe.haxe-checkstyle", // Haxe code style and conventions
+		"vshaxe.hxcpp-debugger", // CPP debugging
+		"wiggin77.codedox" // Haxe documentation
+	]
+}

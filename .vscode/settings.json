@@ -1,0 +1,226 @@
+{
+	"[haxe]": {
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": "never"
+		},
+		"editor.defaultFormatter": "nadako.vshaxe",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.tabSize": 4
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true
+	},
+	"cmake.configureOnOpen": false,
+	"coverage-gutters.coverageFileNames": [
+		"lcov.info",
+		"cov.xml",
+		"coverage.xml",
+		"jacoco.xml",
+		"coverage.cobertura.xml"
+	],
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"files.associations": {
+		".haxe": "haxe",
+		".hscript": "haxe",
+		".hxc": "haxe",
+		".hxp": "haxe",
+		".hxs": "haxe"
+	},
+	"files.eol": "\n",
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"haxe.displayPort": "auto",
+	"haxe.displayServer": {
+		"arguments": ["-v"]
+	},
+	"haxe.enableCompilationServer": false,
+	"haxe.enableServerView": false,
+	"haxecheckstyle.codeSimilarityBufferSize": 100,
+	"haxecheckstyle.configurationFile": "haxe\\checkstyle.json",
+	"haxecheckstyle.externalSourceRoots": [],
+	"haxecheckstyle.sourceFolders": ["source", "mod_source"],
+	"lime.targetConfigurations": [
+		{
+			"label": "Windows / Debug",
+			"target": "windows",
+			"args": ["-debug", "-DFORCE_DEBUG_VERSION"]
+		},
+		{
+			"label": "Linux / Debug",
+			"target": "linux",
+			"args": ["-debug", "-DFORCE_DEBUG_VERSION"]
+		},
+		{
+			"label": "HashLink / Debug",
+			"target": "hl",
+			"args": ["-debug"]
+		},
+		{
+			"label": "Windows / Debug (FlxAnimate Test)",
+			"target": "windows",
+			"args": ["-debug", "-DANIMATE", "-DFORCE_DEBUG_VERSION"]
+		},
+		{
+			"label": "HashLink / Debug (FlxAnimate Test)",
+			"target": "hl",
+			"args": ["-debug", "-DANIMATE"]
+		},
+		{
+			"label": "Windows / Debug (Straight to Freeplay)",
+			"target": "windows",
+			"args": ["-debug", "-DFREEPLAY", "-DFORCE_DEBUG_VERSION"]
+		},
+		{
+			"label": "HashLink / Debug (Straight to Freeplay)",
+			"target": "hl",
+			"args": ["-debug", "-DFREEPLAY"]
+		},
+		{
+			"label": "Windows / Debug (Straight to Play - Bopeebo Normal)",
+			"target": "windows",
+			"args": [
+				"-debug",
+				"-DSONG=bopeebo -DDIFFICULTY=normal",
+				"-DFORCE_DEBUG_VERSION"
+			]
+		},
+		{
+			"label": "Windows / Debug (Straight to Play - 2hot)",
+			"target": "windows",
+			"args": ["-debug", "-DSONG=2hot", "-DFORCE_DEBUG_VERSION"]
+		},
+		{
+			"label": "HashLink / Debug (Straight to Play - Bopeebo Normal)",
+			"target": "hl",
+			"args": ["-debug", "-DSONG=bopeebo -DDIFFICULTY=normal"]
+		},
+		{
+			"label": "Windows / Debug (Conversation Test)",
+			"target": "windows",
+			"args": ["-debug", "-DDIALOGUE", "-DFORCE_DEBUG_VERSION"]
+		},
+		{
+			"label": "HashLink / Debug (Conversation Test)",
+			"target": "hl",
+			"args": ["-debug", "-DDIALOGUE"]
+		},
+		{
+			"label": "Windows / Debug (Straight to Chart Editor)",
+			"target": "windows",
+			"args": ["-debug", "-DCHARTING", "-DFORCE_DEBUG_VERSION"]
+		},
+		{
+			"label": "HashLink / Debug (Straight to Chart Editor)",
+			"target": "hl",
+			"args": ["-debug", "-DCHARTING"]
+		},
+		{
+			"label": "Windows / Debug (Straight to Animation Editor)",
+			"target": "windows",
+			"args": ["-debug", "-DANIMDEBUG", "-DFORCE_DEBUG_VERSION"]
+		},
+		{
+			"label": "Windows / Debug (Debug hxCodec)",
+			"target": "windows",
+			"args": ["-debug", "-DHXC_LIBVLC_LOGGING", "-DFORCE_DEBUG_VERSION"]
+		},
+		{
+			"label": "HashLink / Debug (Straight to Animation Editor)",
+			"target": "hl",
+			"args": ["-debug", "-DANIMDEBUG"]
+		},
+		{
+			"label": "Windows / Debug (Latency Test)",
+			"target": "windows",
+			"args": ["-debug", "-DLATENCY", "-DFORCE_DEBUG_VERSION"]
+		},
+		{
+			"label": "HashLink / Debug (Latency Test)",
+			"target": "hl",
+			"args": ["-debug", "-DLATENCY"]
+		},
+		{
+			"label": "Windows / Debug (Waveform Test)",
+			"target": "windows",
+			"args": ["-debug", "-DWAVEFORM", "-DFORCE_DEBUG_VERSION"]
+		},
+		{
+			"label": "Windows / Release",
+			"target": "windows",
+			"args": ["-release"]
+		},
+		{
+			"label": "Windows / Release (GitHub Actions)",
+			"target": "windows",
+			"args": ["-release", "-DGITHUB_BUILD"]
+		},
+		{
+			"label": "HashLink / Debug (Waveform Test)",
+			"target": "hl",
+			"args": ["-debug", "-DWAVEFORM"]
+		},
+		{
+			"label": "HTML5 / Debug",
+			"target": "html5",
+			"args": ["-debug", "-DFORCE_DEBUG_VERSION"]
+		},
+		{
+			"label": "HTML5 / Debug (Watch)",
+			"target": "html5",
+			"args": ["-debug", "-watch", "-DFORCE_DEBUG_VERSION"]
+		},
+		{
+			"label": "macOS / Debug",
+			"target": "mac",
+			"args": ["-debug", "-DFORCE_DEBUG_VERSION"]
+		},
+		{
+			"label": "macOS / Release",
+			"target": "mac",
+			"args": ["-release"]
+		},
+		{
+			"label": "macOS / Release (GitHub Actions)",
+			"target": "mac",
+			"args": ["-release", "-DGITHUB_BUILD"]
+		}
+	],
+	"projectManager.git.baseFolders": ["./"],
+	"xml.format.closingBracketNewLine": false,
+	"xml.format.emptyElements": "collapse",
+	"xml.format.enabled": true,
+	"xml.format.enforceQuoteStyle": "preferred",
+	"xml.format.grammarAwareFormatting": true,
+	"xml.format.joinCDATALines": true,
+	"xml.format.joinCommentLines": false,
+	"xml.format.joinContentLines": false,
+	"xml.format.legacy": false,
+	"xml.format.maxLineWidth": 0,
+	"xml.format.preserveAttributeLineBreaks": false,
+	"xml.format.preservedNewlines": 0,
+	"xml.format.preserveSpace": [
+		"xsl:text",
+		"xsl:comment",
+		"xsl:processing-instruction",
+		"literallayout",
+		"programlisting",
+		"screen",
+		"synopsis",
+		"pre",
+		"xd:pre"
+	],
+	"xml.format.spaceBeforeEmptyCloseTag": true,
+	"xml.format.splitAttributes": false,
+	"xml.format.xsiSchemaLocationSplit": "onPair",
+	"xml.preferences.quoteStyle": "double"
+}
