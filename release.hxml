@@ -1,34 +1,48 @@
+--define BUILD_DIR=export/release/64bit
+--define BUILD_DIR=export/release/32bit
+
 --class-path source
 --class-path mod_source
 
---class-path .haxelib/discord_rpc/
---class-path .haxelib/flixel/
---class-path .haxelib/flixel-addons/
---class-path .haxelib/flixel-text-input/
---class-path .haxelib/flixel-ui/
---class-path .haxelib/flxanimate/
---class-path .haxelib/format/
---class-path .haxelib/funkin.vis/
---class-path .haxelib/hamcrest/
---class-path .haxelib/haxeui-core/
---class-path .haxelib/haxeui-flixel/
---class-path .haxelib/hscript/
---class-path .haxelib/hxCodec/
---class-path .haxelib/hxcpp/
---class-path .haxelib/hxcpp-debug-server/
---class-path .haxelib/hxp/
---class-path .haxelib/json2object/
---class-path .haxelib/lime/
---class-path .haxelib/mconsole/
---class-path .haxelib/mcover/
---class-path .haxelib/mockatoo/
---class-path .haxelib/munit/
---class-path .haxelib/openfl/
---class-path .haxelib/polymod/
---class-path .haxelib/thx.core/
---class-path .haxelib/thx.semver/
+--class-path .haxelib/discord_rpc/git
+--class-path .haxelib/flixel/git
+--class-path .haxelib/flixel-addons/git
+--class-path .haxelib/flixel-text-input/1,1,0
+--class-path .haxelib/flixel-ui/git
+--class-path .haxelib/flxanimate/git
+--class-path .haxelib/format/3,5,0
+--class-path .haxelib/funkin,vis/git
+--class-path .haxelib/hamcrest/3,0,0
+--class-path .haxelib/haxeui-core/git
+--class-path .haxelib/haxeui-flixel/git
+--class-path .haxelib/hscript/2.5.0
+--class-path .haxelib/hxCodec/git
+--class-path .haxelib/hxcpp/4.3.2
+--class-path .haxelib/hxcpp-debug-server/git
+--class-path .haxelib/hxp/1.2.2
+--class-path .haxelib/json2object/git
+--class-path .haxelib/lime/git
+--class-path .haxelib/mconsole/git
+--class-path .haxelib/mcover/git
+--class-path .haxelib/mockatoo/git
+--class-path .haxelib/munit/git
+--class-path .haxelib/openfl/git
+--class-path .haxelib/polymod/git
+--class-path .haxelib/thx,core/git
+--class-path .haxelib/thx,semver/git
 
 --remap flash:openfl
 
---define FLX_SOUND_SYSTEM
---define REQUEST_DARK_MODE
+--define message.reporting=pretty
+
+--define POLYMOD_DEBUG=false
+--define POLYMOD_SCRIPT_EXT=.hscript
+--define POLYMOD_SCRIPT_LIBRARY=scripts
+--define POLYMOD_ROOT_PATH=scripts/
+--define POLYMOD_APPEND_FOLDER=_append
+--define POLYMOD_MERGE_FOLDER=_merge
+--define POLYMOD_MOD_METADATA_FILE=_polymod_meta.json
+--define POLYMOD_MOD_ICON_FILE=_polymod_icon.png
+
+--macro include("com.sulvic.funkin")
+--macro com.sulvic.funkin.macros.FunkinMacros.registerMetadatas()

@@ -1,29 +1,24 @@
 {
-	"configurations": [
-		{
-			"name": "Lime",
-			"request": "launch",
-			"type": "lime"
-		},
-		{
-			"name": "HTML5 Debug",
-			"preLaunchTask": "debug: html",
-			"request": "launch",
-			"sourceMaps": true,
-			"type": "chrome",
-			"url": "http://localhost:3001",
-			"webRoot": "${workspaceFolder}"
-		},
-		{
-			"name": "Haxe Eval",
-			"request": "launch",
-			"type": "haxe-eval"
-		},
-		{
-			"name": "HXCPP - Attach",
-			"request": "attach",
-			"type": "hxcpp"
-		}
-	],
+	"configurations": [{
+		"name": "Lime",
+		"request": "launch",
+		"type": "lime"
+	}, {
+		"name": "HTML5 Debug",
+		"preLaunchTask": "debug: html",
+		"request": "launch",
+		"sourceMaps": true,
+		"type": "chrome",
+		"url": "http://localhost:3001",
+		"webRoot": "${workspaceFolder}"
+	}, {
+		"name": "Haxe Eval",
+		"request": "launch",
+		"type": "haxe-eval"
+	}, {
+		"name": "HXCPP - Attach",
+		"request": "attach",
+		"type": "hxcpp"
+	}],
 	"version": "0.2.0"
 }

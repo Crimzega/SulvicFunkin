@@ -1,13 +1,11 @@
 {
-	"tasks": [
-		{
-			"command": "test",
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			},
-			"type": "lime"
-		}
-	],
+	"tasks": [{
+		"command": "test",
+		"group": {
+			"kind": "build",
+			"isDefault": true
+		},
+		"type": "lime"
+	}],
 	"version": "2.0.0"
 }

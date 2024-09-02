@@ -72,10 +72,10 @@
 	"lineEnds": {
 		"typedefCurly": {
 			"leftCurly": "after",
-			"rightCurly": "before"
+			"rightCurly": "both"
 		},
 		"leftCurly": "after",
-		"rightCurly": "before"
+		"rightCurly": "both"
 	},
 	"whitespace": {
 		"bracesConfig": {
@@ -104,10 +104,14 @@
 				"openingPolicy": "noneAfter",
 				"removeInnerWhenEmpty": true
 			}
-		}
+		},
+		"ifPolicy": "noneAfter",
+		"forPolicy": "noneAfter",
+		"switchPolicy": "noneAfter",
+		"whilePolicy": "noneAfter",
+		"compressSuccessiveParenthesis": false
 	},
-
 	"wrapping": {
-		"maxLineLength": 160
+		"maxLineLength": 120
 	}
 }

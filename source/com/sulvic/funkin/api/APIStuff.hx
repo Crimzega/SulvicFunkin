@@ -1,4 +1,4 @@
-package com.funkincrew.funkin.api;
+package com.sulvic.funkin.api;
 
 class APIStuff{
 
