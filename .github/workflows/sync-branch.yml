@@ -9,9 +9,11 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
+          repository: Crimzega/SulvicFunkin
+          token: ${{ secrets.PAT }}
       - name: Configure Git
         run: |
           git config user.name "GitHub Action"
